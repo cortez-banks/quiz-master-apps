@@ -1,15 +1,47 @@
+<!--last updated 2/20/2022
+    This update is post merge with the main branch for sprint 3-->
+<!--Current layout is based on floating style framework.-->
 <!DOCTYPE html>
-<html>
-<head>
-<title>Node on Azure</title>
-</head>
-<body>
-<h1>Node.js and Express Hosted on Microsoft Azure Template</h1>
-<p>This repository serves as a template that can be used to create a Node.js and Express based website that can easily
-be hosted on Microsoft Azure.</p>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
-Additional application functionality includes:<br />
-<a href="fetching-from-server.html">Accessing Node.js Server-Side Application Programming Interfaces (APIs)</a><br />
-<a href="fetching-remote-dog-breeds.html">Accessing Remote Application Programming Interfaces (APIs)</a>
+<head>
+    <meta charset="utf-8" />
+    <title>QuizMasterHome</title>
+
+    <link rel="stylesheet" href="./css/indexStyleSheet.css" />
+    <!--jQuery source file-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+    <!--JavaScript project file-->
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!--siteHeading div controls the title of the webpage.-->
+        <div id="siteHeading">
+            <h1>Quiz Master</h1>
+            <h2>This site is still in develpment</h2>
+        </div>
+        <!--The menu bar and the main content of the page are stored in a container div.
+            This helps ensure a column style layout.-->
+        <div id="pageElements">
+            <!--Menu bar to go in this space.-->
+            <!--id main-menu is referenced by jquery to load the menu bar.-->
+            <div id="main-menu"></div>
+
+            <!--Main content of homepage goes here.-->
+            <div id="siteDescription">
+                <p>
+                    Welcome to Quiz Master! Currently, this site is still being developed but keep an eye out for future updates. Current plans include adding a menu bar and more css.
+                </p>
+            </div>
+        </div>
+
+        <!--Footer being referenced by jQuery to open up footer html-->
+        <div id="footer"></div>
+
+    </div>
 </body>
+
 </html>
